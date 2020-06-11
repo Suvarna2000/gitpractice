@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\kulka\IdeaProjects\SuvWblAutomationFramework">
+        <classes>
+            <class name="org.example.test.HomePageTest">
+                <methods>
+                    <include name="searchURLTest1"/>
+                    <include name="searchURLTest2"/>
+                    <include name="searchURLTest3"/>
+                    <include name="searchTextTest"/>
+                    <include name="techImagesTest"/>
+                </methods>
+            </class>
+            <class name="org.example.test.LoginPageTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

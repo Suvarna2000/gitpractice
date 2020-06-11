@@ -1,0 +1,4 @@
+org\example\test\BaseLoginTest.class
+org\example\test\HomePageTest.class
+org\example\test\BaseTest.class
+org\example\test\LoginPageTest.class
