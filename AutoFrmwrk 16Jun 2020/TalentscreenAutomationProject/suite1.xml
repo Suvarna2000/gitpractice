@@ -1,0 +1,19 @@
+<suite name="suite1" parallel="tests">
+    <listeners>
+        <listener class-name="com.wbl.utils.LoggerListener"></listener>
+        <!--<listener class-name="org.example.utils.ReportListener"></listener>-->
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:\Users\kulka\IdeaProjects\TalentscreenAutomationProject">
+        <classes>
+            <class name="com.wbl.base.BaseTest">
+                <methods>
+                    <include name="searchURLTest1"/>
+                    <include name="searchURLTest2"/>
+                    <include name="searchURLTest3"/>
+                    <include name="searchURLTest4"/>
+                    <include name="searchURLTest5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

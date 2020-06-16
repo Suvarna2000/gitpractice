@@ -1,0 +1,16 @@
+<suite name="suite2" parallel="tests">
+    <listeners>
+        <listener class-name="com.wbl.utils.LoggerListener"></listener>
+        <!--<listener class-name="org.example.utils.ReportListener"></listener>-->
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:\Users\kulka\IdeaProjects\TalentscreenAutomationProject">
+        <parameter name="url" value="https://app.talentscreen.io/#/login"/>
+        <classes>
+            <class name="com.wbl.test.HomePageTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
