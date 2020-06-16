@@ -1,0 +1,4 @@
+org\example\pages\HomePage.class
+org\example\pages\LoginPage.class
+org\example\base\BasePage.class
+org\example\base\BaseLoginPage.class
