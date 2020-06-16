@@ -1,0 +1,22 @@
+package com.wbl.utils;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ConfigUtil {
+    public static final Properties prop = new Properties();
+
+public ConfigUtil(String fileName) {
+    try {
+        prop.load(new FileInputStream(fileName));
+    }
+    catch(Exception e){
+        e.printStackTrace();
+    }
+}
+
+public static String getProperty(String key){
+return prop.getProperty(key);
+}
+}
